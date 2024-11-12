@@ -1,21 +1,32 @@
-* {
-  font-family: Arial, Helvetica, sans-serif;
+body {
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
 }
-
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
+.bg-primary {
+background-color: #93bde6 !important;
 }
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+h1, h2, h3, h4, h5, h6 {
+font-style: italic;
+text-align: justify;
 }
-
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
+h1 {
+font-size: 2.5rem;
+}
+h2 {
+font-size: 1.8rem;
+}
+p, ul, li {
+    font-style: italic;
+    color: #555;
+    text-align: justify;
+}
+.text-primary {
+color: #6fa4d9 !important;
+}
+.text-secondary {
+color: #333 !important;
+}
+.list-unstyled li {
+margin-bottom: 8px;
 }
